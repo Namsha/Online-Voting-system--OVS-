@@ -1,0 +1,105 @@
+input {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+select {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#upload {
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid black;
+  background-color: #fff;
+}
+
+#headerSection {
+  padding: 2px;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #fff;
+  text-transform: uppercase;
+  border-radius:60px;
+}
+
+#loginSection {
+  padding: 5px;
+}
+
+body {
+  background-image: linear-gradient(to bottom, rgba(255,255,0,0.5), rgba(0,0,255,0.5)),
+  url('background.jpg');
+    
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+
+#loginbtn {
+  padding: 5px;
+  font-size: 15px;
+  background-color: #000;
+  color: white;
+  border-radius: 5px;
+}
+
+#reglink {
+  padding: 5px;
+  font-size: 15px;
+  background-color:rgba(255,255,0,0.5), rgba(0, 0, 0, 0.5)),
+  url('background.jpg');
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+#mainSection {
+  padding: 10px;
+}
+
+#profileSection {
+  width: 30%;
+  float: left;
+  background-color: white;
+  padding: 20px;
+  border-radius:50px;
+}
+
+#candidateSection {
+  width: 60%;
+  float: right;
+  background-color: white;
+  padding: 20px;
+}
+
+#back-button {
+  float: left;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding: 5px;
+  font-size: 15px;
+  background-color: #3498db;
+  color: white;
+  border-radius: px;
+}
+
+#logout-button {
+  float: right;
+  margin-right: 20px;
+  margin-top: 20px;
+  padding: 5px;
+  font-size: 15px;
+  background-color: #fff;
+  color: black;
+  border-radius: 10px;
+}
